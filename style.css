@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@400&display=swap');
+
+body{
+    font-family: 'Kalnia', serif;
+    font-size: 100%;
+}
+
+#nav_header{
+    width: 95%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+#logo_div{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+#logo{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#logoimg{
+ width: 120%;
+}
+
+
+#logo:active{
+    width: 40%;
+}
+
+#tesla_motors_baslik{
+    font-size: 40px;
+    margin-top: 5%;
+    margin-left: 2%;
+}
+
+ul li a{
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s, background-color 0.3s, font-size 0.3s;
+}
+
+li a:hover{
+    color: blue;
+    font-size: 110%;
+    padding: 10px;
+}
+
+li a:active {
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    font-size: 90%;
+}
+
+ul{
+    padding-top: 5%;
+}
+
+ul li{
+    float: left;
+    margin-left: 5%;
+    list-style-type: none;
+}
+
+#rightDiv{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#header1{
+    width: 95%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-top: 8%;
+}
+
+#header2{
+    width: 95%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-top: 8%;
+}
+
+#header3{
+    width: 95%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-top: 8%;
+}
+
+#header4{
+    width: 95%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-top: 8%;
+}
+
+
+#alt_foto1{
+    width: 90%;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+#rightdiv1{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#left_div1{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+}
+#motor_yazi{
+    width: 100%;
+    height: 50%;
+}
+#logoimg1{
+    width: 100%;
+}
+
+#baslik_div1{
+    width: 100%;
+    height: 70%;
+    text-align: center;
+}
+
+#baslik1{
+    font-size: 50px;
+    transition: font-size 0.3s;
+}
+
+#baslik1:hover{
+    font-size: 60px;
+    color: red;
+    text-decoration: underline;
+}
+
+#baslik1:active{
+    color: rgb(127, 0, 0);
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+#article{
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s;
+    font-size: 110%;
+}
+
+#altfoto1{
+    width: 90%;
+    height: auto;
+}
+
+#logoimg1:active{
+    width: 95%;
+    transition: width 0.1s;
+}
+
+#right_div2{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    order: 1;
+}
+
+#left_div2{
+    width: 75%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+    order: 2;
+}
+
+#hakkimizda{
+    width: 95%;
+    height: 325px;
+    background-color: rgb(230, 228, 228);
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 18px;
+}
+
+#hakkimizda_ust_div{
+    height: 260px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+#hakkimizda_p{
+    display: flex;
+    text-align: center;
+}
+
+#hakkimizda_alt_div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#hakkimizda_sol_div{
+    margin: auto;
+}
+
+#hakkimizda_sag_div{
+    margin: auto;
+}
+
+.effect{
+    font-size: 18;
+    color: black;
+    text-decoration: none;
+}
+
+.effect:hover{
+    color: white;
+    transition: color 0.3s;
+}
+
+.effect:active{
+    color: black;
+    transition: color 0.2s;
+}
+
+#detaylar_foto{
+    height: auto;
+    width: auto ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+#detay_img{
+    width: 60%;
+        
+}
+
+#detaylar_yazi h1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-top: 4%;
+}
+
+#detaylar_yazi{
+    height: auto;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2%;
+    text-align: center;
+    margin: 0 10%;
+}
+
+#detaylar{
+    width: 95%;
+    height: auto;
+    background-color: rgb(230, 228, 228);
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#button_baslik{
+    display: flex;
+    flex-direction: row;
+}
+
+#exit_button{
+    width: 575px;
+    flex-direction: column;
+    text-align: center;
+}
+
+#exit_button img{
+    height: 35%;
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-left: 10px;
+}
+
+#exit_button img:active{
+    width: 30%;
+}
+
+#detaylar_baslik{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.res_yazi{
+    font-size: 18px;
+}
+
+@media screen and (max-width: 1330px) {
+    .res_yazi, #hakkimizda_p, .effect {
+        font-size: 16px;
+    }
+    #baslik1, #tesla_motors_baslik{
+        font-size: 40px;
+    }
+    ul li a{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1130px) {
+    .res_yazi, #hakkimizda_p, .effect  {
+        font-size: 14px;
+    }
+    #baslik1, #tesla_motors_baslik{
+        font-size: 32px;
+    }
+    ul li a{
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .res_yazi, #hakkimizda_p, .effect {
+        font-size: 12px;
+    }
+    #baslik1, #tesla_motors_baslik{
+        font-size: 25px;
+    }
+    ul li a{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .res_yazi, #hakkimizda_p, .effect {
+        font-size: 10px;
+    }
+    #baslik1, #tesla_motors_baslik{
+        font-size: 20px;
+    }
+    ul li a{
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .res_yazi, #hakkimizda_p, .effect {
+        font-size: 8px;
+    }
+    #baslik1, #tesla_motors_baslik{
+        font-size: 15px;
+    }
+    ul li a{
+        font-size: 6px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .res_yazi, #hakkimizda_p, .effect {
+        font-size: 6px;
+    }
+    #baslik1, #tesla_motors_baslik{
+        font-size: 12px;
+    }
+    ul li a{
+        font-size: 5px;
+    }
+}
